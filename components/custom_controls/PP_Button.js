@@ -10,7 +10,7 @@
 import React from 'react';
 import { StyleSheet, TouchableOpacity, Text } from 'react-native';
 import { PropTypes } from 'prop-types';
-import { COLOR_ACCENT, COLOR_DARK_BACKGROUND, FONT_TEXT, FONT_TEXT_BOLD } from '../../assets/styles/theme';
+import { COLOR_ACCENT, COLOR_DARK_BACKGROUND, FONT_TEXT } from '../../assets/styles/theme';
 
 const PP_Button = (props) => {
   PP_Button.propTypes = {
@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
     backgroundColor: COLOR_DARK_BACKGROUND
   },
   label: {
-    fontSize: 60,
+    fontSize: 54,
     alignSelf: 'center',
     color: COLOR_ACCENT,
     fontFamily: FONT_TEXT,

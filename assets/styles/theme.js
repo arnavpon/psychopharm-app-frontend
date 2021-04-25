@@ -8,9 +8,9 @@ export const COLOR_ACCENT = '#90DDF0';  // Middle Blue
 
 // TYPOGRAPHY
 // Lato for Headings
-export const FONT_HEADING =  'Lato-Light';  // weight = 400
-export const FONT_HEADING_BOLD = 'Lato-Regular';  // weight = ?
+export const FONT_HEADING =  'Lato-Regular';  // weight = 400
+export const FONT_HEADING_BOLD = 'Lato-Bold';  // weight = 700
 
 // Roboto for Text
-export const FONT_TEXT = 'Roboto-Light';  // weight = 400
-export const FONT_TEXT_BOLD = 'Roboto-Regular';  // weight = ?
+export const FONT_TEXT = 'Roboto-Regular';  // weight = 400
+export const FONT_TEXT_BOLD = 'Roboto-Medium';  // weight = 500

@@ -6,10 +6,10 @@ import PP_Button from './custom_controls/PP_Button';
 import LabeledInput from './custom_controls/LabeledInput';
 
 const DemographicEntryScreen = ({ navigation }) => {
-  toggleSegmentedControl = () => {
+  const toggleSegmentedControl = () => {
     console.log("switched control to ");
   };
-  handleButtonPress = () => {
+  const handleButtonPress = () => {
     console.log("button was pressed");
     // check that age was entered & is numerical
     navigation.navigate("SearchResults");  // if validation, then move on
