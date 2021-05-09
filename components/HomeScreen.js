@@ -1,8 +1,8 @@
 import React from 'react';
 import { StyleSheet, SafeAreaView, Text, TextInput, View } from 'react-native'; 
-import { SearchHistory } from './SearchHistory';
-import { IconButton } from './custom_controls/IconButton';
-import { COLOR_LIGHT_BACKGROUND, COLOR_TEXT_HEADINGS, FONT_HEADING, FONT_HEADING_BOLD, FONT_TEXT, FONT_TEXT_BOLD } from '../assets/styles/theme';
+import { SearchHistory } from 'frontend/components/SearchHistory'; 
+import { IconButton } from 'frontend/components/custom_controls/IconButton';
+import { COLOR_LIGHT_BACKGROUND, COLOR_TEXT_HEADINGS, FONT_HEADING, FONT_HEADING_BOLD, FONT_TEXT, FONT_TEXT_BOLD } from 'frontend/assets/styles/theme';
 
 const HomeScreen = ({ navigation }) => {
   return (
